@@ -1,0 +1,28 @@
+{
+  "name": "mrstroz/yii2-salesmanago",
+  "description": "Salesmanago component for Yii 2 framework",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Mariusz Stróż",
+      "email": "mariusz.stroz@gmail.com",
+      "homepage": "http://inwave.eu",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.6"
+  },
+  "require-dev": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "mrstroz\\salesmanago\\": ""
+    }
+  }
+}
