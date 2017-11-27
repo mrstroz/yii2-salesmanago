@@ -61,11 +61,12 @@ class Salesmanago extends Component
     }
 
     /**
-     * Adding contact to Salesmanago
+     * Call SALESmanago function
+     * @param string $call Name of API function to call
      * @param array $data
      * @return \stdClass Salesmanago response
      */
-    public function contactUpsert($data)
+    public function call($call, $data)
     {
         $data = array_merge(
             array(
@@ -78,7 +79,7 @@ class Salesmanago extends Component
         );
 
         $json = json_encode($data);
-        $result = $this->doRequest('http://' . $this->endpoint . '/api/contact/upsert', $json);
+        $result = $this->curl('http://' . $this->endpoint . '/api/' . $call, $json);
         return json_decode($result);
     }
 
@@ -88,7 +89,7 @@ class Salesmanago extends Component
      * @param $data
      * @return mixed
      */
-    private function doRequest($url, $data)
+    private function curl($url, $data)
     {
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');

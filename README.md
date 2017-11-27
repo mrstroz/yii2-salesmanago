@@ -42,7 +42,7 @@ Usage
 ```php
 
 $salesmanago = Yii::$app->salesmanago;
-    $result = $salesmanago->contactUpsert([
+    $result = $salesmanago->call('contact/upsert',[
         'contact' => [
             'email' => 'example@example.com',
             'state' => 'CUSTOMER',
