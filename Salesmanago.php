@@ -33,7 +33,7 @@ class Salesmanago extends Component
     /**
      * @var string
      */
-    public $endpoint = 'app2.salesmanago.pl';
+    public $endpoint;
 
 
     /**
