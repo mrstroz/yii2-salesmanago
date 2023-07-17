@@ -1,6 +1,6 @@
 <?php
 
-namespace salesmanagorl\salesmanago;
+namespace magicalella\salesmanago;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
