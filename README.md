@@ -34,6 +34,7 @@ Usage
         'clientId' => 'xxxxxx',
         'apiKey' => 'xxxxxx',
         'apiSecret' => 'xxxxxx',
+        'endpoint' => 'xxxxxx',
     ],
 ]
 ```
