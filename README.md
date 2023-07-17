@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Run
 
 ```
-composer require "mrstroz/yii2-salesmanago" "*"
+composer require "salesmanagorl/yii2-salesmanago" "*"
 ```
 
 or add
 
 ```
-"mrstroz/yii2-salesmanago": "*"
+"salesmanagorl/yii2-salesmanago": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -30,7 +30,7 @@ Usage
 'components' => [
     // ...
     'salesmanago' => [
-        'class' => 'mrstroz\salesmanago\Salesmanago',
+        'class' => 'salesmanagorl\salesmanago\Salesmanago',
         'clientId' => 'xxxxxx',
         'apiKey' => 'xxxxxx',
         'apiSecret' => 'xxxxxx',
