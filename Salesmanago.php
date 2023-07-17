@@ -1,6 +1,6 @@
 <?php
 
-namespace mrstroz\salesmanago;
+namespace salesmanagorl\salesmanago;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
@@ -33,7 +33,7 @@ class Salesmanago extends Component
     /**
      * @var string
      */
-    public $endpoint = 'app2.salesmanago.pl';
+    public $endpoint;
 
 
     /**

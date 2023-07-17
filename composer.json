@@ -1,14 +1,14 @@
 {
-  "name": "mrstroz/yii2-salesmanago",
+  "name": "salesmanagorl/yii2-salesmanago",
   "description": "Salesmanago component for Yii 2 framework",
   "type": "yii2-extension",
   "license": "MIT",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "authors": [
     {
-      "name": "Mariusz Stróż",
-      "email": "mariusz.stroz@gmail.com",
-      "homepage": "http://inwave.eu",
+      "name": "Raffaella Lollini",
+      "email": "raffaella.lollini@magilla.agency",
+      "homepage": "http://magilla",
       "role": "Developer"
     }
   ],
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "mrstroz\\salesmanago\\": ""
+      "salesmanagorl\\salesmanago\\": ""
     }
   }
 }
